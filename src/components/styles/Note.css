@@ -1,0 +1,29 @@
+.notes,.new-note{
+    background-color: #fef68a;
+    border-radius: 10px;
+    padding: 1rem;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    white-space: pre-wrap;/* used not to delete spaces.*/
+}
+
+.new-note{
+    background-color: aqua;
+}
+
+.footer,.new-note-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete,.save{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}

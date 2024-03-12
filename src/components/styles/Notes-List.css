@@ -1,0 +1,32 @@
+@media screen and (min-width:801px) {
+    .notes-list{
+        display: grid;
+        grid-gap:1rem;/* for both column-gap and row-gap */
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));/* it is like 250px 250px 250px 250px 4--columns 250px-- width of each*/
+        position: relative;
+    }
+    .dialog{
+        position: fixed;
+        top: 30%;
+        left: 30%;
+        width: 550px;
+        z-index: 2;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .notes-list{
+        display: grid;
+        grid-gap:1rem;/* for both column-gap and row-gap */
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));/* it is like 250px 250px 250px 250px 4--columns 250px-- width of each*/
+        position: relative;
+    }
+    .dialog{
+        position: fixed;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        z-index: 2;
+
+    }
+}
