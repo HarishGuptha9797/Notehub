@@ -51,6 +51,9 @@ input{
   color: black;
   font-size: 15px;
 }
+input::after{
+  background:transparent;
+}
 .remember-class>span{
   display: flex;
   margin-right: 40px;
