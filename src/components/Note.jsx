@@ -2,7 +2,7 @@ import "./styles/Note.css";
 const Note = ({ id, text, date, handleDeleteNote, handleEditNote }) => {
   return (
     <div className="notes">
-      <span>{text}</span>
+      <div className="content">{text}</div>
       <div className="footer">
         <div className="date">{date}</div>
         <div style={{ display: "flex" }}>
