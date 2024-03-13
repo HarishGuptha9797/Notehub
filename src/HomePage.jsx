@@ -77,6 +77,11 @@ function HomePage() {
               placeholder="Password"
               value={password}
               onChange={handlePassword}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") {
+                  handleSignIn();
+                }
+              }}
             />
 
             <input

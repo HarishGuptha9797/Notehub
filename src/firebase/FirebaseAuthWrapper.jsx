@@ -9,7 +9,7 @@ export const FirebaseAuthWrapper = ({ children }) => {
 
   useEffect(() => {
     if (!loading && !user) {
-      navigate("/login");
+      navigate("/dashboard");
     }
   }, [user, loading, navigate]);
 
