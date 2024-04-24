@@ -1,8 +1,20 @@
-# React + Vite
+# NOTEHUB📝
+NOTEHUB is a web application built using React and Firebase that allows users to create, edit, and delete notes. Users can register or log in using their email address, ensuring that their data is securely associated with their account.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- User Authentication: Register and log in securely using your email address.
+- Create Notes: Easily create new notes with a content.
+- Edit Notes: Update existing notes whenever needed.
+- Delete Notes: Remove unwanted notes with a single click.
+- Responsive Design: Enjoy a seamless experience across devices.
 
-Currently, two official plugins are available:
+# Technologies Used
+- Firebase: Backend-as-a-Service (BaaS) platform for authentication and data storage.
+- React: Frontend framework for building dynamic user interfaces.
+- React Router: For handling client-side routing.
+# Preview
+![image](https://github.com/HarishGuptha9797/Notehub/assets/113228409/a6ad5bcf-d5f8-4a42-9ebb-de80c9df68cb)
+Login Interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/HarishGuptha9797/Notehub/assets/113228409/b850ce3b-52e1-482c-b248-bfa5b4d7258a)
+Home Page.
