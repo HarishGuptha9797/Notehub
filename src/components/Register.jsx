@@ -77,7 +77,7 @@ export default function Register() {
           <input
             type={show}
             name=""
-            placeholder="Enter Your Password"
+            placeholder="Create Your Password"
             value={password}
             onChange={handlePassword}
           />
