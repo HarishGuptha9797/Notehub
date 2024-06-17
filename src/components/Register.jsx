@@ -68,7 +68,7 @@ export default function Register() {
         <div className="input-box">
           <input
             type="email"
-            placeholder="Enter your Gmail"
+            placeholder="Enter your Email"
             value={email}
             onChange={handleEmail}
           />
