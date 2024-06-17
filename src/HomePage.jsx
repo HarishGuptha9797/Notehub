@@ -65,7 +65,7 @@ function HomePage() {
           <div className="input-box">
             <input
               type="email"
-              placeholder="Enter Your Gmail"
+              placeholder="Enter Your Email"
               value={email}
               onChange={handleEmail}
             />
