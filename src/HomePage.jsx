@@ -65,7 +65,7 @@ function HomePage() {
           <div className="input-box">
             <input
               type="email"
-              placeholder="Username"
+              placeholder="Enter Your Gmail"
               value={email}
               onChange={handleEmail}
             />
@@ -74,7 +74,7 @@ function HomePage() {
             <input
               type={show}
               name=""
-              placeholder="Password"
+              placeholder="Enter Your Password"
               value={password}
               onChange={handlePassword}
               onKeyDown={(e) => {
