@@ -28,7 +28,7 @@ export default function ResetPassword() {
         <div className="input-box">
           <input
             type="email"
-            placeholder="Username"
+            placeholder="Enter Your Gmail"
             value={email}
             onChange={handleEmail}
           />
