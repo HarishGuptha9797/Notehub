@@ -68,7 +68,7 @@ export default function Register() {
         <div className="input-box">
           <input
             type="email"
-            placeholder="Username"
+            placeholder="Enter your Gmail"
             value={email}
             onChange={handleEmail}
           />
@@ -77,7 +77,7 @@ export default function Register() {
           <input
             type={show}
             name=""
-            placeholder="Password"
+            placeholder="Enter Your Password"
             value={password}
             onChange={handlePassword}
           />
@@ -90,7 +90,7 @@ export default function Register() {
         <div className="input-box" style={{ position: "relative" }}>
           <input
             type={show}
-            placeholder="confirm Password"
+            placeholder="Confirm Your Password"
             value={confirmPassword}
             onChange={handleConfirmPassword}
           />
